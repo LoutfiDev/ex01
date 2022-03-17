@@ -1,0 +1,6 @@
+footer{
+    @include flex(center,center);
+    width: 100vw;
+    height: 15vh;
+    border: solid 1px $color-secondary;
+}
