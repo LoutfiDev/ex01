@@ -1,0 +1,8 @@
+main{
+    width: 100%;
+    height: 85%;
+    border: solid 1px $color-secondary;
+    padding: 15px 10px;
+    overflow-y: auto;
+}
+@include awesome-scrollbar("main",15px,100px,#e4e4e4,#818181);
