@@ -1,0 +1,55 @@
+// Colors
+$color-primary: #000;
+$color-secondary: #fff;
+
+//Shadows
+// $shadow-sm: '';
+
+//Font sizes
+// $font-size-xs: 1rem;
+// $font-size-sm: 1.2rem;
+// $font-size-re: 1.3rem;
+// $font-size-md: 1.5rem;
+// $font-size-lg: 1.7rem;
+// $font-size-xl: 1.9rem;
+
+// Font Names
+$font-primary: "Roboto";
+$font-secondary: "Didact Gothic";
+
+//==================================//
+// Don't miss with those variabeles //
+//==================================//
+
+// Breakpoint
+// $breakpoints: ("xs": 360px, "sm": 576px, "md":768px, "lg":992px, "xl":1200px);
+
+// Black & White
+$color-black: #000000;
+$color-white: #ffffff;
+
+//Font Path
+$font-primary-light-path: "../fonts/" + $font-primary + "/" + $font-primary + "-Light.ttf";
+$font-primary-regular-path: "../fonts/" + $font-primary + "/" + $font-primary + "-Regular.ttf";
+$font-primary-medium-path: "../fonts/" + $font-primary + "/" + $font-primary + "-Medium.ttf";
+$font-primary-semibold-path: "../fonts/" + $font-primary + "/" + $font-primary + "-Semibold.ttf";
+$font-primary-bold-path: "../fonts/" + $font-primary + "/" + $font-primary + "-Bold.ttf";
+
+$font-secondary-light-path: "../fonts/" + $font-secondary + "/" + $font-secondary + "-Light.ttf";
+$font-secondary-regular-path: "../fonts/" + $font-secondary + "/" + $font-secondary + "-Regular.ttf";
+$font-secondary-medium-path: "../fonts/" + $font-secondary + "/" + $font-secondary + "-Medium.ttf";
+$font-secondary-semibold-path: "../fonts/" + $font-secondary + "/" + $font-secondary + "-Semibold.ttf";
+$font-secondary-bold-path: "../fonts/" + $font-secondary + "/" + $font-secondary + "-Bold.ttf";
+
+//Font Family
+$font-primary-light: $font-primary + " Light";
+$font-primary-regular: $font-primary + " Regular";
+$font-primary-medium: $font-primary + " Medium";
+$font-primary-semibold: $font-primary + " SemiBold";
+$font-primary-bold: $font-primary + " Bold";
+
+$font-secondary-light: $font-secondary + " Light";
+$font-secondary-regular: $font-secondary + " Regular";
+$font-secondary-medium: $font-secondary + " Medium";
+$font-secondary-semibold: $font-secondary + " SemiBold";
+$font-secondary-bold: $font-secondary + " Bold";

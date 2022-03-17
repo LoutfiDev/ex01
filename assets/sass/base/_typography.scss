@@ -1,0 +1,53 @@
+/*=== Import Fonts ===*/
+@include font-face($font-primary-light, $font-primary-light-path);
+@include font-face($font-primary-regular, $font-primary-regular-path);
+@include font-face($font-primary-medium, $font-primary-medium-path);
+@include font-face($font-primary-semibold, $font-primary-semibold-path);
+@include font-face($font-primary-bold, $font-primary-bold-path);
+
+@include font-face($font-secondary-light, $font-secondary-light-path);
+@include font-face($font-secondary-regular, $font-secondary-regular-path);
+@include font-face($font-secondary-medium, $font-secondary-medium-path);
+@include font-face($font-secondary-semibold, $font-secondary-semibold-path);
+@include font-face($font-secondary-bold, $font-secondary-bold-path);
+
+/*=== Typography Styling ===*/
+body {
+	// color: $dark-1;
+	// font-size: $size-small;
+	// font-family: $font-primary-regular, sans-serif;
+	// font-style: normal;
+	// font-weight: normal;
+	// font-stretch: normal;
+	// letter-spacing: normal;
+	// line-height: 1.5;
+    @include font-source-sans($font-primary-regular,1rem,$color-secondary, 400, 1rem);
+}
+
+h1 {
+	// @include font-source-sans($font-primary-bold, $font-size-xl, $color-primary-1, bold, line-height);
+}
+h2 {
+}
+h3 {
+}
+h4 {
+}
+h5 {
+}
+h6 {
+}
+
+button {
+}
+
+a {
+}
+
+p {
+	
+}
+
+label {
+}
+
