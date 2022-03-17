@@ -1,0 +1,9 @@
+aside{
+    width: 15%;
+    height:100%;
+    border: solid 1px $color-secondary;
+    padding: 15px 10px;
+    overflow-y: auto;   
+}
+
+@include awesome-scrollbar("aside",15px,100px,#e4e4e4,#818181);
