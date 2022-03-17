@@ -1,0 +1,30 @@
+* { margin: 0px; padding: 0px; -webkit-box-sizing: border-box; box-sizing: border-box; border: 0; vertical-align: baseline; }
+
+body { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; overflow-x: hidden; background-color: #000; }
+
+/*=== Import Fonts ===*/
+@font-face { font-family: "Roboto Light"; src: url("../fonts/Roboto/Roboto-Light.ttf") format("truetype"); }
+
+@font-face { font-family: "Roboto Regular"; src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype"); }
+
+@font-face { font-family: "Roboto Medium"; src: url("../fonts/Roboto/Roboto-Medium.ttf") format("truetype"); }
+
+@font-face { font-family: "Roboto SemiBold"; src: url("../fonts/Roboto/Roboto-Semibold.ttf") format("truetype"); }
+
+@font-face { font-family: "Roboto Bold"; src: url("../fonts/Roboto/Roboto-Bold.ttf") format("truetype"); }
+
+@font-face { font-family: "Didact Gothic Light"; src: url("../fonts/Didact Gothic/Didact Gothic-Light.ttf") format("truetype"); }
+
+@font-face { font-family: "Didact Gothic Regular"; src: url("../fonts/Didact Gothic/Didact Gothic-Regular.ttf") format("truetype"); }
+
+@font-face { font-family: "Didact Gothic Medium"; src: url("../fonts/Didact Gothic/Didact Gothic-Medium.ttf") format("truetype"); }
+
+@font-face { font-family: "Didact Gothic SemiBold"; src: url("../fonts/Didact Gothic/Didact Gothic-Semibold.ttf") format("truetype"); }
+
+@font-face { font-family: "Didact Gothic Bold"; src: url("../fonts/Didact Gothic/Didact Gothic-Bold.ttf") format("truetype"); }
+
+/*=== Typography Styling ===*/
+body { font-family: "Roboto Regular"; font-size: 1rem; color: #fff; font-weight: 400; line-height: 1rem; }
+
+section { display: -webkit-box; display: -ms-flexbox; display: flex; width: 100vw; height: 85vh; }
+/*# sourceMappingURL=style.css.map */
