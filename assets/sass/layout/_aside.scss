@@ -1,10 +1,50 @@
 aside{
-    width: 25%;
+    width: 20%;
     min-width:250px;
-    height:100%;
+    height: calc(100vh - 101px);
     border: solid 1px $color-secondary;
     padding: 15px 10px;
     overflow-y: auto;   
 }
 
 @include awesome-scrollbar("aside",15px,100px,#e4e4e4,#818181);
+
+
+@media(max-width:1024px){
+    .right-sidebar{
+        position: fixed;
+        right: -300px;
+    }
+}
+
+
+@media(max-width:700px){
+    .left-sidebar{
+        position: fixed;
+        left: -200px;
+
+        article{
+            display: none;
+        }
+    }
+
+    .container{
+        padding-left: 49px;
+    }
+
+    .left-sidebar:hover{
+        position: fixed;
+        left: 0px;
+        background-color: $color-primary;
+
+        article{
+            display: block;
+        } 
+        .container{
+        padding-left: 0px;
+        }
+    }
+   
+
+
+}

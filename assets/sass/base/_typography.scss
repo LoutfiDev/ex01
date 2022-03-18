@@ -21,7 +21,7 @@ body {
 	// font-stretch: normal;
 	// letter-spacing: normal;
 	// line-height: 1.5;
-    @include font-source-sans($font-primary-regular,1rem,$color-secondary, 400, 1rem);
+    @include font-source-sans($font-primary-regular,1rem,$color-secondary, 400, 1.3rem);
 }
 
 h1 {
