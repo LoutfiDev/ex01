@@ -28,7 +28,11 @@ body { font-family: "Roboto Regular"; font-size: 1rem; color: #fff; font-weight:
 
 section { display: -webkit-box; display: -ms-flexbox; display: flex; width: 100vw; height: calc(100vh - 101px); }
 
-aside { width: 20%; min-width: 250px; height: calc(100vh - 101px); border: solid 1px #fff; padding: 15px 10px; overflow-y: auto; }
+aside { width: 20%; min-width: 250px; height: calc(100vh - 101px); padding: 15px 10px; overflow-y: auto; }
+
+.right-sidebar { border-left: solid 1px #fff; }
+
+.left-sidebar { border-right: solid 1px #fff; }
 
 aside::-webkit-scrollbar { width: 15px; }
 
@@ -45,11 +49,11 @@ aside::-webkit-scrollbar-thumb { -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0,
   .left-sidebar:hover article { display: block; }
   .left-sidebar:hover .container { padding-left: 0px; } }
 
-.container { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; width: 100%; }
+.container { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; width: 100%; height: calc(100vh - 101px); }
 
-nav { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; width: 100%; min-height: 80px; border: solid 1px #fff; }
+nav { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; width: 100%; min-height: 80px; border-bottom: solid 1px #fff; }
 
-main { width: 100%; height: 100%; border: solid 1px #fff; padding: 15px 10px; overflow-y: auto; }
+main { width: 100%; height: 100%; padding: 15px 10px; overflow-y: auto; }
 
 main::-webkit-scrollbar { width: 15px; }
 
@@ -57,5 +61,5 @@ main::-webkit-scrollbar-track { background-color: #e4e4e4; border-radius: 0; }
 
 main::-webkit-scrollbar-thumb { -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); background-color: #818181; border: 3px solid #e4e4e4; border-radius: 100px; }
 
-footer { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; width: 100vw; height: 100px; z-index: 10; background-color: #000; border: solid 1px #fff; }
+footer { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; width: 100vw; height: 100px; z-index: 10; background-color: #000; border-top: solid 1px #fff; }
 /*# sourceMappingURL=style.css.map */

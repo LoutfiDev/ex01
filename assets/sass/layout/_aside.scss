@@ -1,11 +1,19 @@
 aside{
     width: 20%;
     min-width:250px;
-    height: calc(100vh - 101px);
-    border: solid 1px $color-secondary;
+    height: calc(100vh - 101px);   
     padding: 15px 10px;
     overflow-y: auto;   
 }
+
+.right-sidebar{
+    border-left: solid 1px $color-secondary;
+}
+
+.left-sidebar{
+    border-right: solid 1px $color-secondary;
+}
+
 
 @include awesome-scrollbar("aside",15px,100px,#e4e4e4,#818181);
 
@@ -45,6 +53,4 @@ aside{
         }
     }
    
-
-
 }

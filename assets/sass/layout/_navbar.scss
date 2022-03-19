@@ -2,5 +2,5 @@ nav{
     @include flex(center,center);
     width: 100%;
     min-height:80px;
-    border: solid 1px $color-secondary;
+    border-bottom: solid 1px $color-secondary;
 }
